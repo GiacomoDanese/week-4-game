@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystals Collector</title>
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<h1 class="page-header">CrystalsCollector!</h1>
+		</div>
+		
+		<div class="row">
+			<div class="col-md-6" id="header">
+				<p class="paragraph">You will be given a random number at the start of the game.
+				<br><br>
+				There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+				<br><br>
+				You win the game by mathcing your total score to random number, you lose the game if your total score goes above the random number.
+				<br><br>
+				The value of each crystal is hidden from you until you click on it.
+				<br><br>
+				Each time when the game starts, the game will change values for each crystal.</p>
+			</div>
+		</div>
+		
+		<div class="row start">
+			<div class="col-md-4" id="green-box">
+				<div class="guess">
+				</div>
+			</div>
+			
+			<div class="col-md-4" id="blue-box">
+				<div class="counter">
+					<p>
+					Wins:<div id="yourWins"></div>
+					Losses:<div id="yourLosses"></div>
+					</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row crystals">
+			<img src="assets/images/red.png" class="button" id="red">
+			<img src="assets/images/blue.png" class="button" id="blue">
+			<img src="assets/images/yellow.png" class="button" id="yellow">
+			<img src="assets/images/green.png" class="button" id="green">
+		</div>
+
+		<div class="row score">
+			<div class="col-lg-4">
+				<p>Your Score:</p>
+				<div class="addition">
+				</div>
+			</div>
+		</div>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+body {
+	background-image: url("paper.gif");
+}
+
+#green-box {
+	background-color: green;
+	height: 100px;
+}
+
+.guess {
+	font-weight: bold;
+	font-size: 24px;
+}
+
+#blue-box {
+	background-color: cyan;
+	height: 100px;
+	width: 100px;
+}
+
+.paragraph {
+	color: green;
+	background-color: rgb(255, 234, 104);
+	font-weight: bold;
+}
+
+
